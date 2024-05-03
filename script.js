@@ -36,4 +36,4 @@ console.log(typeof function(){})
 function abc(a, b, c){}
 console.log(abc.length)
 console.dir(abc)
-
+ 
