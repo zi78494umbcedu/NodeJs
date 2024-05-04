@@ -37,3 +37,7 @@ function abc(a, b, c){}
 console.log(abc.length)
 console.dir(abc)
  
+
+var blob = await fetch(`https://randomuser.me/api/`);
+var res = await blob.json();
+console.log(res);
